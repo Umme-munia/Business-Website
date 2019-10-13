@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>hatil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+  <div id="response">
+  <header>
+    <div class="container">
+      <img src="image/firstpic.png" alt="Me" width="1000" height="400">
+      <h1 class="centered">A blend of art and science</h1>
+      <div class="logo">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-dribbble"></a>
+        <a href="#" class="fa fa-vimeo"></a>
+        <a href="#" class="fa fa-tumblr"></a>
+      </div>
+    </div>
+    <div class="heading">
+      <a href="#Home" style="color:rgb(14, 2, 41)">Home</a>
+      <a href="#Work" style="color:rgb(14, 2, 41)">Work</a>
+      <a href="#Services" style="color:rgb(14, 2, 41)">Services</a>
+      <a href="#About" style="color:rgb(14, 2, 41)">About</a>
+      <a href="#Blog" style="color:rgb(14, 2, 41)">Blog</a>
+      <a href="#Contact" style="color:rgb(14, 2, 41)">Contact</a>
+    </div>
+  </header>
+
+  <h2 id="Work"><b>Work</b></h2>
+  <p style="text-align: center; font-size: 20px;">Let your living space live up to your expectatio. It is a brand that is
+    admired worldwide. All a modern office should have. </p>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="image/room.jpg" style="width:100%; border:5px solid rgb(177, 213, 229);">
+      <div class="text">Room</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/dining.jpg" style="width:100%; border:5px solid rgb(177, 213, 229);">
+      <div class="text">Dining</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/sofa.jpg" style="width:100%; border:5px solid rgb(177, 213, 229);">
+      <div class="text">Sofa</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/bed.jpg" style="width:100%; border:5px solid rgb(177, 213, 229);">
+      <div class="text">Bed</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/drawing.jpg" style="width:100%; border:5 solid rgb(177, 213, 229);">
+      <div class="text">Corner</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <script src="js/home.js"></script>
+
+  <div class="topnav" style="margin-top: 60px; width: 1000px; text-align: center;">
+    <a class="active" href="#All">All</a>
+    <a href="#Sofa">Sofa</a>
+    <a href="#Dining Table">Dining Table</a>
+    <a href="#Corner">Corner</a>
+    <a href="#Bed">Bed</a>
+    <a href="#Room">Room</a>
+    <a href="#Drawing">Drawing</a>
+  </div>
+
+  <table style="margin-left:auto; margin-right: auto">
+
+    <tr>
+      <td style="padding: 20px"><a href="#Sofa"><img src="image/sofa.png" style="width:300px; height:250px"></a></td>
+      <td style="padding: 20px"><a href="#Dining"><img src="image/dining.jpg" style="width:300px; height:250px"></a>
+      </td>
+      <td style="padding: 20px"><a href="#Corner"><img src="image/bed.jpg" style="width:300px; height:250px"></a></td>
+    </tr>
+
+    <tr>
+      <td style="padding: 20px"><a href="#Bed"><img src="image/firstpic.png" style="width:300px; height:250px"></a></td>
+      <td style="padding: 20px"><a href="#Room"><img src="image/room.jpg" style="width:300px; height:250px"></a></td>
+      <td style="padding: 20px"><a href="#Drawing"><img src="image/drawing.jpg" style="width:300px; height:250px"></a>
+      </td>
+    </tr>
+
+  </table>
+
+  <table style="margin-top: 60px; margin-left:auto; margin-right: auto">
+
+    <tr>
+      <td style="font-size: 30px"><b>Know more!</b></td>
+    </tr>
+
+    <tr>
+      <td style="width: 900px; font-size: 20px">Join with us</td>
+      <td><a href="#Sign" class="button" 
+        onclick="document.getElementById('signup').style.display='block'">Sign up</a></td>
+    </tr>
+
+  </table>
+  <div id="signup" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black">
+        <span onclick="document.getElementById('signup').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Sign up</h1>
+      </div>
+      <div class="w3-container">
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="password" placeholder="password" required name="password"></p>
+          <p><button class="w3-button button" type="submit" style="text-align: center; width:200px;">Sign up</button></p>
+          </form>
+       </div>
+       </div>
+       </div>
+
+  <div class="container" style="margin-top: 60px;">
+    <img src="image/office.jpg" alt="Me" width="1000" height="400">
+    <h1 class="centered" style="top: 150px; color: #2b06fa;">Sense of comfort and redefined</h1>
+
+    <div class="services">
+      <h2 id="Services" style="color: white;"><b>Services</b></h2>
+      <p style="text-align: center; font-size: 20px">Let your living space live up to your expectatio. It is a brand
+        that is
+        admired worldwide. All a modern office should have.
+      </p>
+
+
+      <table style="margin-left: auto; margin-right: auto;">
+
+        <tr style="text-align: center;">
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Sofa"><img src="image/logosofa.jpg"></a>
+            <h1 style="margin-top: auto">Sofa</h1>
+            <p style="width: 250px; text-align: center;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s
+              furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Bed"><img src="image/logobed.png"></a>
+            <h1 style="margin-top: auto">Bed</h1>
+            <p style="width: 250px; text-align: center;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s
+              furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Dining Table"><img src="image/logodining.png"></a>
+            <h1 style="margin-top: auto">Dining Table</h1>
+            <p style="width: 250px; text-align: center;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s
+              furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+        </tr>
+        <tr style="text-align: center;">
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Drawing Room"><img src="image/logodrawing.jpg"></a>
+            <h1 style="margin-top: auto">Drawing Room</h1>
+            <p style="width: 250px;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Design"><img src="image/logodesign.jpg"></a>
+            <h1 style="margin-top: auto">Design</h1>
+            <p style="width: 250px;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+
+          <td style="padding: 0 15px 0 15px;">
+            <a href="#Development"><img src="image/logodevelopment.png"></a>
+            <h1 style="margin-top: auto">Development</h1>
+            <p style="width: 250px;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s furniture industry.
+              Carefully-chosen raw material, environment-friendly business practice and
+              customer-centric approach is what made HATIL a beloved brand at home and
+              abroad.
+            </p>
+          </td>
+
+        </tr>
+
+      </table>
+
+      <div class="columns">
+        <ul class="price">
+          <li>Basic</li>
+          <h1 style="text-align:center;"> $ 5<sub>.99</sub></h1>
+          <p style="text-align:center;">per month</p>
+          <li>3 Projects</li>
+          <li>2 Users</li>
+          <li>1GB space</li>
+          <li>1 Celender</li>
+          <li><a href="#Sign" class="button" 
+            onclick="document.getElementById('signup').style.display='block'">Sign up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li>Pro</li>
+          <h1 style="text-align:center;">$ 9<sub>.99</sub></h1>
+          <p style="text-align:center;">per month</p>
+          <li>5 Projects</li>
+          <li>5 Users</li>
+          <li>5GB space</li>
+          <li>5 Celender</li>
+          <li><a href="#Sign" class="button" 
+            onclick="document.getElementById('signup').style.display='block'">Sign up</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <div class="premium">
+            <li>Premium</li>
+            <h1 style="text-align:center;">$ 25</h1>
+            <p style="text-align:center;">per month</p>
+            <li>25 Projects</li>
+            <li>100 Users</li>
+            <li>25GB space</li>
+            <li>100 Celender</li>
+            <li><a href="#Sign" class="button" 
+              onclick="document.getElementById('signup').style.display='block'">Sign up</a></li>
+          </div>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="services">
+    <table style="margin-left: 100px; margin-right: 105px; margin-top: 60px; margin-bottom: 50px;">
+
+      <tr>
+        <td style="font-size: 30px"><b>Know more!</b></td>
+      </tr>
+
+      <tr>
+        <td style="width: 900px; font-size: 20px">Join with us</td>
+        <td><a href="#Sign" class="button" 
+          onclick="document.getElementById('signup').style.display='block'">Sign up</a></td>
+      </tr>
+
+    </table>
+    <div class="container">
+      <img src="image/office.jpg" alt="Me" width="1000" height="400" class="ser">
+      <h1 class="centered" style="top: 150px; color: #2b06fa;">Sense of comfort and redefined</h1>
+    </div>
+
+  </div>
+
+  <h2 id="About"><b>About</b></h2>
+
+  <table style="text-align: center; margin-left:auto; margin-right: auto">
+    <tr>
+      <td>
+        <p style="text-align:center; width: 500px;">HATIL is considered to be the ‘game-changer’ in Bangladesh’s furniture industry.
+          Carefully-chosen raw material, environment-friendly business practice and
+          customer-centric approach is what made HATIL a beloved brand at home and abroad.
+        </p>
+        <div>
+          <a href="#" class="fa fa-facebook" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-twitter" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-google" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-linkedin" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-youtube" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-instagram" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-dribbble" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-vimeo" style="background-color: rgb(161, 159, 159);"></a>
+          <a href="#" class="fa fa-tumblr" style="background-color: rgb(161, 159, 159);"></a>
+        </div>
+      </td>
+      <td><img src="image/room.jpg" style="width:180px; height:180px; float:right;"></td>
+    </tr>
+  </table>
+
+  <h1 style="text-align: center;">Skills</h1>
+  <div style="width: 500px; margin-left:auto; margin-right: auto">
+    <p>PHP</p>
+    <div class="length">
+      <div class="skills php"></div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="length">
+      <div class="skills php" style="width: 50%; "></div>
+    </div>
+
+    <p>Illustrator</p>
+    <div class="length">
+      <div class="skills php" style="width: 60%; "></div>
+    </div>
+
+    <p>HTML/CSS</p>
+    <div class="length">
+      <div class="skills php" style="width: 70%; "></div>
+    </div>
+
+    <p>Photoshop</p>
+    <div class="length">
+      <div class="skills php" style="width: 80%; "></div>
+    </div>
+
+  </div>
+  <div style="text-align:center; margin-top: 50px;">
+    <h1>Team</h1>
+    <p>Hatil shares a time-tested bond with its Franchise Partners, Employees,
+      Stakeholders and Customers alike.
+    </p>
+  </div>
+
+  <table style="margin-top: 30px; margin-left:auto; margin-right: auto ">
+    <tr>
+      <td style="padding: 15px"><a href="#Sofa"><img src="image/team.PNG" style="width:300px; height:250px"></a></td>
+      <td style="padding: 15px"><a href="#Dining"><img src="image/team.PNG" style="width:300px; height:250px"></a>
+      </td>
+      <td style="padding: 15px"><a href="#Corner"><img src="image/team.PNG" style="width:300px; height:250px"></a></td>
+    </tr>
+
+    <tr style="text-align: center; font-size: 20px">
+      <td><b>Team Member</b></td>
+      <td><b>Team Member</b></td>
+      <td><b>Team Member</b></td>
+    </tr>
+
+    <tr style="text-align: center; font-size: 15px">
+      <td>Developer</td>
+      <td>Developer</td>
+      <td>Developer</td>
+    </tr>
+
+    <tr style="text-align: center;">
+      <td>
+        <a href="#" class="fa fa-facebook" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-twitter" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-google" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-linkedin" style="background-color: rgb(161, 159, 159);"></a>
+      </td>
+      <td>
+        <a href="#" class="fa fa-facebook" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-twitter" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-vimeo" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-tumblr" style="background-color: rgb(161, 159, 159);"></a>
+      </td>
+      <td>
+        <a href="#" class="fa fa-youtube" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-instagram" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-dribbble" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-vimeo" style="background-color: rgb(161, 159, 159);"></a>
+        <a href="#" class="fa fa-tumblr" style="background-color: rgb(161, 159, 159);"></a>
+      </td>
+    </tr>
+
+    <tr style="text-align: center;">
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+    </tr>
+  </table>
+
+  <table style="margin-top: 60px; margin-left:auto; margin-right: auto;">
+
+    <tr>
+      <td style="font-size: 30px"><b>Know more!</b></td>
+    </tr>
+
+    <tr>
+      <td style="width: 900px; font-size: 20px">Join with us</td>
+      <td><a href="#Sign" class="button" 
+        onclick="document.getElementById('signup').style.display='block'">Sign up</a></td>
+    </tr>
+
+  </table>
+
+  <div class="container" style="margin-top: 60px;">
+    <img src="image/office.jpg" alt="Me" width="1000" height="400" class="ser">
+    <h1 class="centered" style="top: 150px; color: #2b06fa;">Sense of comfort and redefined</h1>
+  </div>
+
+  <h2 id="Blog"><b>Blog</b></h2>
+  <table style="margin-top: 30px; background-color: lightgray; margin-left:auto; margin-right: auto">
+    <tr>
+      <td style="padding: 15px"><a href="#Sofa"><img src="image/team.PNG" style="width:300px; height:250px"></a></td>
+      <td style="padding: 15px"><a href="#Dining"><img src="image/team.PNG" style="width:300px; height:250px"></a>
+      </td>
+      <td style="padding: 15px"><a href="#Corner"><img src="image/team.PNG" style="width:300px; height:250px"></a></td>
+    </tr>
+    <tr style="font-size: 12px; color:rgb(87, 84, 84);">
+      <td>Posted on June 30,2019</td>
+      <td>Posted on June 30,2019</td>
+      <td>Posted on June 30,2019</td>
+    </tr>
+
+    <tr style="font-size: 20px">
+      <td><b>Topic</b></td>
+      <td><b>Topic</b></td>
+      <td><b>Topic</b></td>
+    </tr>
+
+    <tr style="text-align: center;">
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+      <td>
+        <p style="width:300px;">Apart from this, we dreamt of an organization that attracts talents
+          and network partners. We are happy to observe that we are all driven by
+          the same set of values and principles. And I deeply believe, in days to
+          come, our collective effort will put us all in the front seat of this
+          industry.</p>
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td><a href="#Read">Read more</a></td>
+      <td><a href="#Read">Read more</a></td>
+      <td><a href="#Read">Read more</a></td>
+    </tr>
+
+  </table>
+
+  <div class="container" style="margin-top: 60px;">
+    <img src="image/office.jpg" alt="Me" width="1000" height="400">
+    <h1 class="centered" style="top: 150px; color: #2b06fa;">Sense of comfort annd redefined</h1>
+
+    <div class="services">
+      <h2 id="Contact" style="color: white;"><b>Contact</b></h2>
+      <p style="text-align: center; font-size: 20px">Let your living space live up to your expectatio. It is a brand
+        that is
+        admired worldwide. All a modern office should have.
+      </p>
+
+
+      <div class="w3-row-padding w3-center w3-padding-24" style="margin-left: 120px; margin-right: 120px;">
+        <div class="w3-third w3-dark-grey">
+          <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+          <p>info@hatil.com</p>
+        </div>
+        <div class="w3-third w3-dark-grey">
+          <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+          <p>Moinpur, Dhaka-1216</p>
+        </div>
+        <div class="w3-third w3-dark-grey">
+          <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+          <p>512312311</p>
+        </div>
+      </div>
+
+      <form action="/action_page.php" target="_blank" style="margin-left: 120px; margin-right: 120px;">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button class="button" style="background-color: black; color: white; width: 200px;;">Send Message</button>
+      </form>
+
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14602.163511102768!2d90.3583645194271!3d23.799358286156465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0c51f7df1c9%3A0xfd8b3a8bc2d47be9!2sMonipur%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1569962044663!5m2!1sen!2sbd" 
+        width="1000" height="450" frameborder="0" style="border:0;"
+        allowfullscreen=""></iframe></p>
+      <footer>
+        <p style="text-align: center;">We love to hear from our customers. Please send
+            your queries, feedback and suggestions.</p>
+      </footer>
+      
+    </div>
+  </div>
+</body>
+
+</html>
